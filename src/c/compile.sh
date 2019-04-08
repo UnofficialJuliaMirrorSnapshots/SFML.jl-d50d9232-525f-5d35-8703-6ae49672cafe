@@ -1,0 +1,1 @@
+gcc -I/usr/local/include -L/usr/local/lib -lsfml-graphics -lsfml-system -lsfml-window -lsfml-network -lsfml-audio -lcsfml-network -lcsfml-graphics -lcsfml-system -lcsfml-window -lcsfml-audio -o $1 $1.c
